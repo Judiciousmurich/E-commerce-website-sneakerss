@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.title{
+    font-family: sans-serif; 
+    margin-left: 80px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+     margin-left: -440px; 
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(136, 127, 127);
+    text-transform: capitalize;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    height: 45px;
+}
+.img-container1{
+    height: 5vh;
+    width:2vw ;
+}
+.judy{
+    height: 100%;
+    width: 100%;
+    border-radius: 300px;
+}
+.cart-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 80px;
+
+}
+.img-container2{
+    height: 70vh;
+    width: 30vw;
+}
+.shoe-big{
+    height: 100%;
+    width: 100%;
+
+}
+.container1{
+    display: flex;
+    gap: 9px;
+}
+
+.img-container3{
+    height:15wh ;
+    width: 7vw;
+}
+.shoes{
+    height: 100%;
+    width: 100%;
+}
+.master-container{
+    display: flex;
+    margin-left: 45px;
+}
+.container2{
+     display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    width: 50vw;
+    height: 70vh;
+    overflow: hidden;
+    margin-left: 45px;
+    
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:whitesmoke;
+    height: 30px;
+    margin-bottom: 8px;
+    
+}
+.sneaker{
+    color:rgb(239, 208, 151);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    
+}
+.fall-limited{
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    
+}
+.description{
+    color: rgb(166, 162, 162);
+    margin-top: -12px;
+
+}
+.container-4{
+    display: flex;
+    gap: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: large;
+}
+.percent{
+border: 2px solid white;
+padding:2px 4px;
+background-color: rgb(232, 208, 163);
+}
+.price2{
+    
+    text-decoration: line-through;
+    margin-left: 400px;
+    color:rgb(224, 219, 219);
+}
+.minus{
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    color: orange;
+    font-size: 25px;
+}
+.add{
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    margin-right: 8px;
+    color: orange;
+    font-size: 20px;
+}
+.addCart{
+    width: 100%;
+    background-color:yellow;
+    border: none;
+    height: 26px;
+}
